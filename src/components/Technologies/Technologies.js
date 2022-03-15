@@ -31,7 +31,7 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section>
     <SectionDivider />
     <br />
     <SectionTitle>Tech Stack</SectionTitle>
@@ -95,12 +95,6 @@ const Technologies = () => (
       <ListItem>
         <SiJest size="6rem" />
       </ListItem>
-      {/* <ListItem>
-        <SiExpress size="6rem" />
-      </ListItem> */}
-      {/* <ListItem>
-        <SiNextdotjs size="6rem" />
-      </ListItem> */}
     </List>
   </Section>
 );
