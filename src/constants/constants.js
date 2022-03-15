@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/readcycle.png",
     tags: ["Firebase", "React Native", "React Navigation", "Expo"],
     source: "https://github.com/kirstyrichmond/nc-readcycle",
-    visit: "https://github.com/kirstyrichmond/nc-readcycle",
+    // visit: "https://github.com/kirstyrichmond/nc-readcycle",
     id: 2,
   },
   {

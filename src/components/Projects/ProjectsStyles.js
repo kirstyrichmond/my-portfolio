@@ -36,6 +36,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  padding-top: 40px;
+  font-weight: bold;
 `;
 
 export const HeaderThree = styled.h3`
@@ -100,6 +102,7 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  padding-bottom: 0px;
 `;
 export const Tag = styled.li`
   color: #d8bfbf;
