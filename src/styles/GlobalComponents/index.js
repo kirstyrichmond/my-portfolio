@@ -5,6 +5,7 @@ export const Section = styled.section`
   flex-direction: ${(props) => (props.row ? "row" : "column")};
   padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
   margin: 0 auto;
+  margin-top: 50px;
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
@@ -37,8 +38,10 @@ export const SectionTitle = styled.h2`
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: auto;
   margin-bottom: 20px;
   margin-top: 20px;
+  align-self: center;
 
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
@@ -65,8 +68,11 @@ export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
+  padding-bottom: 9rem;
+  align-self: center;
+  text-align: center;
   color: rgba(255, 255, 255, 0.5);
+  margin: auto;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -87,6 +93,8 @@ export const SectionDivider = styled.div`
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
+  align-self: center;
+  margin-bottom: 25px;
   background: ${(props) =>
     props.colorAlt
       ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
@@ -219,6 +227,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
+  
   background: ${({ alt }) =>
     alt
       ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"

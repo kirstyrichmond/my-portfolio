@@ -6,26 +6,27 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { LeftSection, ButtonContainer } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Kirsty <br />
-        Richmond
+        Kirsty Richmond
       </SectionTitle>
       <SectionText>
         Avid bike tourer, piano player and nature lover with a passion for
         coding.
       </SectionText>
-      <Button
-        onClick={() =>
-          (window.location = "mailto:kirsty.richmond.abc@hotmail.co.uk")
-        }
-      >
-        Email me
-      </Button>
+      <ButtonContainer>
+        <Button
+          onClick={() =>
+            (window.location = "mailto:kirsty.richmond.abc@hotmail.co.uk")
+          }
+        >
+          Email me
+        </Button>
+      </ButtonContainer>
     </LeftSection>
   </Section>
 );
