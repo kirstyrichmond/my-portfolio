@@ -36,7 +36,7 @@ const Technologies = () => (
       I have worked with a range of software developement technologies across
       the stack.
     </SectionText>
-      <ListTitle>Front End</ListTitle>
+    <ListTitle>Front End</ListTitle>
     <List>
       <ListItem>
         <DiReact size="6rem" />
@@ -59,9 +59,9 @@ const Technologies = () => (
       <ListItem>
         <DiCss3 size="6rem" />
       </ListItem>
-      </List>
-      <ListTitle>Back End</ListTitle>
-      <List>
+    </List>
+    <ListTitle>Back End</ListTitle>
+    <List>
       <ListItem>
         <DiHeroku size="6rem" />
       </ListItem>
