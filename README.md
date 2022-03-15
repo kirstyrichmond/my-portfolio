@@ -1,6 +1,8 @@
 # Welcome to my portfolio! :wave: 
 
- ## [Visit Portfolio](https://kirsty-richmond.netlify.app)
+[Visit Portfolio](https://kirsty-richmond.netlify.app)
+ 
+## Description
 
 This is a portfolio website that contains:
 
