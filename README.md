@@ -1,5 +1,7 @@
 # Welcome to my portfolio! :wave:
 
+Created by Kirsty Richmond.
+
 [Visit Portfolio](https://kirsty-richmond.netlify.app)
 
 ## Description
