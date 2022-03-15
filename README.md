@@ -15,12 +15,12 @@ This is a portfolio website that contains:
 
 Created with:
 
-![image](https://user-images.githubusercontent.com/90627497/158408318-a12fc574-8c92-4aa7-a79d-36f4a6d49dc0.png)
-![image](https://user-images.githubusercontent.com/90627497/158408392-e0856e3e-9d58-4e53-a359-1141983a7b2a.png)
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![image](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
 Hosted with:
 
-![image](https://user-images.githubusercontent.com/90627497/158408881-028ace17-1fee-4bf5-8b2f-3183058138b7.png)
+![image](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 <hr \>
 
