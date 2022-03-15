@@ -1,13 +1,13 @@
-# Welcome to my portfolio! :wave: 
+# Welcome to my portfolio! :wave:
 
 [Visit Portfolio](https://kirsty-richmond.netlify.app)
- 
+
 ## Description
 
 This is a portfolio website that contains:
 
 - header section with links
-- hero section 
+- hero section
 - project section
 - tech stack section
 - achievements section
@@ -28,7 +28,7 @@ Hosted with:
 
 ### Minimum requirements:
 
-To use this repo, please install atleast version 14.17.6 of ```Node```. 
+To use this repo, please install atleast version 14.17.6 of `Node`.
 
 ### Clone repo:
 
