@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillHtml5 } from "react-icons/ai";
 import {
   DiFirebase,
   DiReact,
@@ -10,8 +11,10 @@ import {
   DiPostgresql,
   DiWordpress,
   DiCss3,
+  DiNpm,
+  DiSass,
 } from "react-icons/di";
-import { SiExpo, SiJest, SiNextdotjs } from "react-icons/si";
+import { SiExpo, SiJest, SiNextdotjs, SiExpress, SiTailwindcss, SiReactrouter } from "react-icons/si";
 
 import {
   Section,
@@ -42,10 +45,25 @@ const Technologies = () => (
         <DiReact size="6rem" />
       </ListItem>
       <ListItem>
+        <SiReactrouter size="6rem" />
+      </ListItem>
+      <ListItem>
         <DiJavascript1 size="6rem" />
       </ListItem>
       <ListItem>
         <SiExpo size="6rem" />
+      </ListItem>
+      <ListItem>
+        <AiFillHtml5 size="6rem" />
+      </ListItem>
+      <ListItem>
+        <DiCss3 size="6rem" />
+      </ListItem>
+      <ListItem>
+        <DiSass size="6rem" />
+      </ListItem>
+      <ListItem>
+        <SiTailwindcss size="6rem" />
       </ListItem>
       <ListItem>
         <DiIllustrator size="6rem" />
@@ -56,12 +74,12 @@ const Technologies = () => (
       <ListItem>
         <DiWordpress size="6rem" />
       </ListItem>
-      <ListItem>
-        <DiCss3 size="6rem" />
-      </ListItem>
     </List>
     <ListTitle>Back End</ListTitle>
     <List>
+      <ListItem>
+        <DiNpm size="6rem" />
+      </ListItem>
       <ListItem>
         <DiHeroku size="6rem" />
       </ListItem>
@@ -77,6 +95,9 @@ const Technologies = () => (
       <ListItem>
         <SiJest size="6rem" />
       </ListItem>
+      {/* <ListItem>
+        <SiExpress size="6rem" />
+      </ListItem> */}
       {/* <ListItem>
         <SiNextdotjs size="6rem" />
       </ListItem> */}

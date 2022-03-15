@@ -68,7 +68,7 @@ export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 9rem;
+  padding-bottom: 5rem;
   align-self: center;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);

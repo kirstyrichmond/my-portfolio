@@ -37,7 +37,6 @@ export const List = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 3rem 0;
-  
 
   @media ${(props) => props.theme.breakpoints.lg} {
     margin: 64px 0;
@@ -71,7 +70,8 @@ export const ListTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
+  margin-top: 50px;
   text-align: center;
 
   @media ${(props) => props.theme.breakpoints.md} {
