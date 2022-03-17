@@ -1,17 +1,10 @@
 import React from "react";
-// import { GiGrandPiano } from "react-icons/gi";
 import {
   Section,
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import {
-  Box,
-  Boxes,
-  BoxNum,
-  BoxText,
-  IconContainer,
-} from "./AcomplishmentsStyles";
+import { Box, Boxes, BoxNum, BoxText } from "./AchievementsStyles";
 
 const data = [
   {

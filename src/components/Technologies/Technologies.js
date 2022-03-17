@@ -24,9 +24,7 @@ import {
 } from "../../styles/GlobalComponents";
 import {
   List,
-  ListContainer,
   ListItem,
-  ListParagraph,
   ListTitle,
 } from "./TechnologiesStyles";
 
