@@ -94,7 +94,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   align-self: center;
-  margin-bottom: 25px;
+  margin-top: 70px;
+  margin-bottom: 50px;
   background: ${(props) =>
     props.colorAlt
       ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
@@ -182,7 +183,7 @@ export const SecondaryBtn = styled.button`
 `;
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => (alt ? "150px" : "262px")};
+  width: 100%;
   height: ${({ alt }) => (alt ? "52px" : "64px")};
   border-radius: 50px;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
@@ -203,7 +204,7 @@ export const ButtonBack = styled.div`
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: ${({ alt }) => (alt ? "150px" : "184px")};
+    width: 100%;
     height: ${({ alt }) => (alt ? "52px" : "48px")};
     font-size: ${({ alt }) => (alt ? "20px" : "16px")};
     margin-bottom: ${({ alt }) => (alt ? "0" : "64px")};
@@ -227,7 +228,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  
+
   background: ${({ alt }) =>
     alt
       ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
