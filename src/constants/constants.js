@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: "To-Do Web App",
+    title: "Netflix Clone",
     description:
-      "A web app that allows a user to add, edit, drag and drop, cross out if completed, filter by tasks and delete tasks.",
-    image: "/images/todo.png",
-    tags: ["React", "Javascript", "HTML", "CSS"],
-    visit: "https://kirsty-richmond-todo-app.netlify.app",
-    code: "https://github.com/kirstyrichmond/To-do-Web-App",
-    id: 3,
+      "This is a clone of Netflix. You can register/login, watch movie trailers, create a profile, edit a profile and sign out.",
+    image: "/images/netflix-clone.png",
+    tags: ["React", "Redux", "Stripe", "Axios", "Firebase"],
+    visit: "https://netflix-clone-20e8c.web.app/",
+    code: "https://github.com/kirstyrichmond/netflix-clone",
+    id: 5,
   },
   {
     title: "Instagram Clone",
@@ -17,6 +17,16 @@ export const projects = [
     tags: ["React", "Next", "Tailwind", "Firebase"],
     visit: "https://instagram-clone-nine-delta.vercel.app/",
     code: "https://github.com/kirstyrichmond/instagram-clone",
+    id: 4,
+  },
+  {
+    title: "To-Do Web App",
+    description:
+      "A web app that allows a user to add, edit, drag and drop, cross out if completed, filter by tasks and delete tasks.",
+    image: "/images/todo.png",
+    tags: ["React", "Javascript", "HTML", "CSS"],
+    visit: "https://kirsty-richmond-todo-app.netlify.app",
+    code: "https://github.com/kirstyrichmond/To-do-Web-App",
     id: 3,
   },
   {
