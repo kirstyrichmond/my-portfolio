@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-items: center;
   position: relative;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 24px;
   top: 100px;
   padding: 0px 45px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -31,3 +33,10 @@ export const ButtonContainer = styled.div`
   margin: 0 auto;
   align-self: center;
 `;
+
+export const ProfilePhoto = styled.img`
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;  
+`

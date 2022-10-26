@@ -1,7 +1,6 @@
 import React from "react";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiFillApi } from "react-icons/ai";
 import {
-  DiFirebase,
   DiReact,
   DiHeroku,
   DiIllustrator,
@@ -12,9 +11,8 @@ import {
   DiWordpress,
   DiCss3,
   DiNpm,
-  DiSass,
 } from "react-icons/di";
-import { SiExpo, SiJest, SiNextdotjs, SiExpress, SiTailwindcss, SiReactrouter } from "react-icons/si";
+import { SiExpo, SiJest, SiTailwindcss, SiReactrouter, SiGraphql, SiTypescript, SiFirebase } from "react-icons/si";
 
 import {
   Section,
@@ -40,58 +38,64 @@ const Technologies = () => (
     <ListTitle>Front End</ListTitle>
     <List>
       <ListItem>
-        <DiReact size="6rem" />
+        <DiReact title="React" size="6rem" />
       </ListItem>
       <ListItem>
-        <SiReactrouter size="6rem" />
+        <SiTypescript title="Typescript" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiJavascript1 size="6rem" />
+        <DiJavascript1 title="Javascript" size="6rem" />
       </ListItem>
       <ListItem>
-        <SiExpo size="6rem" />
+        <SiReactrouter title="React Router" size="6rem" />
       </ListItem>
       <ListItem>
-        <AiFillHtml5 size="6rem" />
+        <SiExpo title="Expo" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiCss3 size="6rem" />
+        <AiFillHtml5 title="HTML" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiSass size="6rem" />
+        <DiCss3 title="CSS" size="6rem" />
       </ListItem>
       <ListItem>
-        <SiTailwindcss size="6rem" />
+        <SiTailwindcss title="TailwindCSS" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiIllustrator size="6rem" />
+        <DiIllustrator title="Illustrator" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiPhotoshop size="6rem" />
+        <DiPhotoshop title="Photoshop" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiWordpress size="6rem" />
+        <DiWordpress title="Wordpress" size="6rem" />
       </ListItem>
     </List>
     <ListTitle>Back End</ListTitle>
     <List>
-      <ListItem>
-        <DiNpm size="6rem" />
+    <ListItem>
+        <SiGraphql title="GraphQL" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiHeroku size="6rem" />
+        <DiPostgresql title="PostgreSQL" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiFirebase size="6rem" />
+        <AiFillApi title="API" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiPostgresql size="6rem" />
+        <DiNpm title="NPM" size="6rem" />
       </ListItem>
       <ListItem>
-        <DiNodejs size="6rem" />
+        <DiHeroku title="Heroku" size="6rem" />
+      </ListItem>
+      <ListItem >
+        <SiFirebase title="Firebase" size="6rem" />
       </ListItem>
       <ListItem>
-        <SiJest size="6rem" />
+        <DiNodejs title="Node" size="6rem" />
+      </ListItem>
+      <ListItem>
+        <SiJest title="Jest" size="6rem" />
       </ListItem>
     </List>
   </Section>

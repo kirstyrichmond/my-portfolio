@@ -6,11 +6,12 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, ButtonContainer } from "./HeroStyles";
+import { LeftSection, ButtonContainer, ProfilePhoto } from "./HeroStyles";
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
+      <ProfilePhoto src="/images/kirstyrichmond.png" />
       <SectionTitle main center>
         Kirsty Richmond
       </SectionTitle>

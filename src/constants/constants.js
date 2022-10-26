@@ -7,18 +7,18 @@ export const projects = [
     tags: ["React", "Redux", "Stripe", "Axios", "Firebase"],
     visit: "https://netflix-clone-20e8c.web.app/",
     code: "https://github.com/kirstyrichmond/netflix-clone",
-    id: 5,
-  },
-  {
-    title: "Instagram Clone",
-    description:
-      "This is a clone of Instagram. You can log in with your google account, create a post, like and comment on a post and log out.",
-    image: "/images/instagram-clone.png",
-    tags: ["React", "Next", "Tailwind", "Firebase"],
-    visit: "https://instagram-clone-nine-delta.vercel.app/",
-    code: "https://github.com/kirstyrichmond/instagram-clone",
     id: 4,
   },
+  // {
+  //   title: "Instagram Clone",
+  //   description:
+  //     "This is a clone of Instagram. You can log in with your google account, create a post, like and comment on a post and log out.",
+  //   image: "/images/instagram-clone.png",
+  //   tags: ["React", "Next", "Tailwind", "Firebase"],
+  //   visit: "https://instagram-clone-nine-delta.vercel.app/",
+  //   code: "https://github.com/kirstyrichmond/instagram-clone",
+  //   id: 4,
+  // },
   {
     title: "To-Do Web App",
     description:
