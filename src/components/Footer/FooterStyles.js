@@ -14,7 +14,7 @@ export const FooterWrapper = styled.section`
 `;
 
 export const LinkItem = styled.a`
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 16px;
@@ -34,28 +34,22 @@ export const LinkItem = styled.a`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 8px;
+    font-size: 14px;
     line-height: 14px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+
   }
 `;
 
 export const SocialIconsContainer = styled.div`
   max-width: 1040px;
   display: flex;
-  justify-content: flex-end;
 
   @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
-    justify-content: space-between;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
   }
 `;
 
@@ -141,15 +135,17 @@ export const LinkColumn = styled.div`
 export const LinkTitle = styled.h4`
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.4);
   margin-bottom: 16px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 12px;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
+    color: rgba(255, 255, 255, 0.7);
+
   }
 `;

@@ -6,9 +6,7 @@ export const LeftSection = styled.div`
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  position: relative;
-  margin-bottom: 24px;
-  top: 100px;
+  margin: 120px 0 0 0;
   padding: 0px 45px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
@@ -22,21 +20,36 @@ export const LeftSection = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  @media ${(props) => props.theme.breakpoints.lg} {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     top: 25px;
-    margin: 0 auto;
     padding: 0px 20px;
   }
 `;
 
 export const ButtonContainer = styled.div`
-  width: 25%;
   margin: 0 auto;
   align-self: center;
+  width: 164px;
+  height: 64px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100px;
+    margin: 18px auto 0;
+  }
 `;
 
 export const ProfilePhoto = styled.img`
   border-radius: 50%;
   width: 240px;
   height: 240px;
-  object-fit: cover;  
+  object-fit: cover; 
+  
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 180px;
+    height: 180px;
+  }
 `

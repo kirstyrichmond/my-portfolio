@@ -8,14 +8,6 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
-  }
 `;
 
 export const Span = styled.span`
@@ -33,7 +25,6 @@ export const Div3 = styled.div`
   }
 `;
 
-// Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
@@ -49,7 +40,6 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
@@ -95,7 +85,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-// Social Icons
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;

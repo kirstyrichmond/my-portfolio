@@ -9,7 +9,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, ButtonContainer, ProfilePhoto } from "./HeroStyles";
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section>
     <LeftSection>
       <ProfilePhoto src="/images/kirstyrichmond.png" />
       <SectionTitle main center>

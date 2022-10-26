@@ -68,14 +68,11 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 24px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
-  }
 `;
 
 export const UtilityList = styled.ul`
@@ -101,8 +98,12 @@ export const ExternalLinks = styled.a`
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 2rem 1rem;
   padding-bottom: 0px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 2rem;
+  }
 `;
 export const Tag = styled.li`
   color: #d8bfbf;

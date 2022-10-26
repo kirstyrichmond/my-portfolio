@@ -5,21 +5,19 @@ export const Section = styled.section`
   flex-direction: ${(props) => (props.row ? "row" : "column")};
   padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
   margin: 0 auto;
-  margin-top: 50px;
-  max-width: 1040px;
+  min-width: 336px;
   box-sizing: content-box;
-  position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: 48px 48px 0;
     flex-direction: column;
+    max-width: 1040px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
-
     width: calc(100vw - 32px);
     flex-direction: column;
   }
@@ -55,7 +53,7 @@ export const SectionTitle = styled.h2`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => (props.main ? "28px" : "32px")};
+    font-size: ${(props) => (props.main ? "28px" : "30px")};
     line-height: ${(props) => (props.main ? "32px" : "40px")};
     margin-bottom: 8px;
     padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
@@ -71,7 +69,7 @@ export const SectionText = styled.p`
   padding-bottom: 5rem;
   align-self: center;
   text-align: center;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   margin: auto;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -94,8 +92,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   align-self: center;
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin-top: 118px;
+  margin-bottom: 64px;
   background: ${(props) =>
     props.colorAlt
       ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
@@ -106,11 +104,8 @@ export const SectionDivider = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
     height: 4px;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
-    height: 2px;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 `;
 export const SectionSubText = styled.p`

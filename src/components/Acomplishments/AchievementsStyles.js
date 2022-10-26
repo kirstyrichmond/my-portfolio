@@ -26,19 +26,19 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212d45;
   border-radius: 12px;
-  height: 144px;
+  height: 188px;
   padding: 24px;
   @media ${(props) => props.theme.breakpoints.lg} {
-    height: 210px;
+    height: 180px;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    height: 135px;
+    height: 132px;
     padding: 16px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: 82px;
     padding: 12px;
 
     &:nth-child(2n) {
@@ -60,7 +60,7 @@ export const BoxNum = styled.h5`
     line-height: 32px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 26px;
   }
 `;
@@ -79,7 +79,7 @@ export const BoxText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
   }
 `;

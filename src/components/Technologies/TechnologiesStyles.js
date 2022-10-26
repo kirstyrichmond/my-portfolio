@@ -46,12 +46,6 @@ export const List = styled.ul`
     margin: 64px 0;
     gap: 24px;
   }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    margin: 32px 0;
-  }
 `;
 
 export const ListContainer = styled.div`
@@ -111,7 +105,7 @@ export const ListItem = styled.li`
   justify-content: center;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 203px;
+    margin-bottom: 24px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
