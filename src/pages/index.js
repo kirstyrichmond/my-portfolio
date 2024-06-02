@@ -1,4 +1,5 @@
 import Achievements from "../components/Acomplishments/Achievements";
+import Education from '../components/Education/Education';
 import Experience from "../components/Experience/Experience";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Experience />
       <Projects />
+      <Education />
       <Technologies />
       <Achievements />
     </Layout>

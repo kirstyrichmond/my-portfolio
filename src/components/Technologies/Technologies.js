@@ -13,6 +13,8 @@ import {
   DiNpm,
 } from "react-icons/di";
 import { SiExpo, SiJest, SiTailwindcss, SiReactrouter, SiGraphql, SiTypescript, SiFirebase } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
+
 
 import {
   Section,
@@ -39,6 +41,9 @@ const Technologies = () => (
     <List>
       <ListItem>
         <DiReact title="React" size="6rem" />
+      </ListItem>
+      <ListItem>
+        <FaVuejs title="Vue" size="5rem" />
       </ListItem>
       <ListItem>
         <SiTypescript title="Typescript" size="6rem" />

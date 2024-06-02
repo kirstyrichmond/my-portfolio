@@ -6,27 +6,26 @@ export const LeftSection = styled.div`
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  margin: 120px 0 0 0;
   padding: 0px 45px;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    top: 15px;
-    margin: 0 auto;
-    padding: 0px 15px;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+  margin: 64px auto;
+
   @media ${(props) => props.theme.breakpoints.lg} {
     width: 100%;
     display: flex;
     flex-direction: column;
     top: 25px;
     padding: 0px 20px;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
   }
 `;
 

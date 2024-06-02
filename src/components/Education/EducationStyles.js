@@ -4,26 +4,29 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 58px;
+    padding-top: 58px;
 
     @media ${(props) => props.theme.breakpoints.sm} {
         padding-top: 18px;
  }
 `
 
-export const ExperienceContainer = styled.div`
+export const EducationContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     width: 832px;
     height: auto;
     padding-bottom: 60px;
+    @media ${(props) => props.theme.breakpoints.lg} {
+        padding-bottom: 80px;
+  }
     @media ${(props) => props.theme.breakpoints.md} {
         width: 88%;
         justify-content: center;
   }
 `
 
-export const ExperienceInfo = styled.div`
+export const EducationInfo = styled.div`
     @media ${(props) => props.theme.breakpoints.md} {
         width: 100%;
  }
@@ -32,8 +35,8 @@ export const ExperienceInfo = styled.div`
  }
 `
 
-export const ExperienceLogo = styled.img`
-    width: 200px;
+export const EducationLogo = styled.img`
+    width: 224px;
     margin-right: 24px;
     max-height: 100%;
 
@@ -49,7 +52,7 @@ export const ExperienceLogo = styled.img`
    
 `
 
-export const ExperienceTitle = styled.p`
+export const EducationTitle = styled.p`
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 8px;
@@ -63,7 +66,7 @@ export const ExperienceTitle = styled.p`
   }
 `
 
-export const ExperienceDate = styled.p`
+export const EducationDate = styled.p`
     margin-bottom: 8px;
     font-size: 18px;
 
@@ -76,7 +79,7 @@ export const ExperienceDate = styled.p`
     }
 `
 
-export const ExperienceDescription = styled.p`
+export const EducationDescription = styled.p`
     line-height: 1.5;
     font-weight: 300;  
     font-size: 18px;
@@ -94,7 +97,7 @@ export const ExperienceDescription = styled.p`
     }
 `
 
-export const ExperienceRole = styled.p`
+export const EducationRole = styled.p`
     line-height: 1.5;
     font-size: 18px;
     margin-bottom: 8px;
