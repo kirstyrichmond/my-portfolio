@@ -12,7 +12,7 @@ const Hero = () => (
   <Section>
     <LeftSection>
       <ProfilePhoto src="/images/kirstyrichmond.png" />
-      <SectionTitle main center>
+      <SectionTitle $main $center>
         Kirsty Richmond
       </SectionTitle>
       <SectionText>

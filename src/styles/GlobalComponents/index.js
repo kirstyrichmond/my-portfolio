@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
   display: ${(props) => (props.grid ? "grid" : "flex")};
   flex-direction: ${(props) => (props.row ? "row" : "column")};
-  padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
+  padding: ${(props) => (props.$nopadding ? "0" : "32px 48px 0")};
   margin: 0 auto;
   min-width: 336px;
   box-sizing: content-box;
@@ -17,7 +17,7 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    padding: ${(props) => (props.$nopadding ? "0" : "16px 16px 0")};
     width: calc(100vw - 32px);
     flex-direction: column;
   }
@@ -25,8 +25,8 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => (props.main ? "58px" : "56px")};
-  line-height: ${(props) => (props.main ? "60px" : "56px")};
+  font-size: ${(props) => (props.$main ? "58px" : "56px")};
+  line-height: ${(props) => (props.$main ? "60px" : "56px")};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(
@@ -41,21 +41,21 @@ export const SectionTitle = styled.h2`
   margin-top: 20px;
   align-self: center;
 
-  padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+  padding: ${(props) => (props.$main ? "58px 0 16px" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: ${(props) => (props.main ? "56px" : "48px")};
-    line-height: ${(props) => (props.main ? "56px" : "48px")};
+    font-size: ${(props) => (props.$main ? "56px" : "48px")};
+    line-height: ${(props) => (props.$main ? "56px" : "48px")};
     margin-bottom: 12px;
-    padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
+    padding: ${(props) => (props.$main ? "40px 0 12px" : "0")};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     line-height: 40px;
-    font-size: ${(props) => (props.main ? "24px" : "26px")};
-    line-height: ${(props) => (props.main ? "32px" : "40px")};
+    font-size: ${(props) => (props.$main ? "24px" : "26px")};
+    line-height: ${(props) => (props.$main ? "32px" : "40px")};
     margin-bottom: 8px;
-    padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
+    padding: ${(props) => (props.$main ? "16px 0 8px" : "0")};
     max-width: 100%;
   }
 `;

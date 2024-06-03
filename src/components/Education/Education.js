@@ -5,7 +5,7 @@ import { Container, EducationContainer, EducationInfo, EducationDate, EducationD
 const Education = () => (
     <Section>
         <SectionDivider />
-        <SectionTitle main>Education</SectionTitle>
+        <SectionTitle $main>Education</SectionTitle>
         <Container>
             <EducationContainer>
                 <EducationLogo src='/images/northcoders-logo.png' />

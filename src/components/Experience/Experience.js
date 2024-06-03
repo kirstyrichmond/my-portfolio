@@ -5,7 +5,7 @@ import { Container, ExperienceContainer, ExperienceInfo, ExperienceDate, Experie
 const Experience = () => (
     <Section>
         <SectionDivider />
-        <SectionTitle main>Experience</SectionTitle>
+        <SectionTitle $main>Experience</SectionTitle>
         <Container>
             <ExperienceContainer>
                 <ExperienceLogo src='/images/made-by-sauce-logo.jpeg' />

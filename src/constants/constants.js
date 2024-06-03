@@ -5,7 +5,7 @@ export const projects = [
       "This is a clone of Netflix. You can register/login, watch movie trailers, create a profile, edit a profile and sign out.",
     image: "/images/netflix-clone.png",
     tags: ["React", "Redux", "Stripe", "Axios", "Firebase"],
-    visit: "https://netflix-clone-20e8c.web.app/",
+    visit: "https://kirsty-richmond-netflix.vercel.app/",
     code: "https://github.com/kirstyrichmond/netflix-clone",
     id: 5,
   },
