@@ -7,16 +7,6 @@ export const projects = [
     tags: ["React", "Redux", "Stripe", "Axios", "Firebase"],
     visit: "https://kirsty-richmond-netflix.vercel.app/",
     code: "https://github.com/kirstyrichmond/netflix-clone",
-    id: 5,
-  },
-  {
-    title: "Instagram Clone",
-    description:
-      "This is a clone of Instagram. You can log in with your google account, create and delete a post, like and comment on a post, delete your account and log out.",
-    image: "/images/instagram-clone.png",
-    tags: ["React", "Next.js", "Tailwind", "Firebase"],
-    visit: "https://instagram-clone-nine-delta.vercel.app/",
-    code: "https://github.com/kirstyrichmond/instagram-clone",
     id: 4,
   },
   {
