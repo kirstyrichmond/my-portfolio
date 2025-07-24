@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 58px;
+    padding-top: 58px;
 
     @media ${(props) => props.theme.breakpoints.sm} {
         padding-top: 18px;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 export const ExperienceContainer = styled.div`
     display: flex;
     justify-content: flex-start;
-    width: 832px;
+    width: 100%;
     height: auto;
     padding-bottom: 60px;
     @media ${(props) => props.theme.breakpoints.md} {
@@ -36,14 +36,15 @@ export const ExperienceLogo = styled.img`
     width: 200px;
     margin-right: 24px;
     max-height: 100%;
+    object-fit: contain;
 
     @media ${(props) => props.theme.breakpoints.md} {
         max-height: 164px;
   }
     
     @media ${(props) => props.theme.breakpoints.sm} {
-        max-height: 125px;
-        width: 125px;
+        max-height: 100px;
+        width: 100px;
         margin-right: 18px;
   }
    

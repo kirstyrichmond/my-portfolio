@@ -39,6 +39,7 @@ export const EducationLogo = styled.img`
     width: 224px;
     margin-right: 24px;
     max-height: 100%;
+    object-fit: contain;
 
     @media ${(props) => props.theme.breakpoints.md} {
         max-height: 164px;
