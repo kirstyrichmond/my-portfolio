@@ -11,8 +11,9 @@ import {
   DiWordpress,
   DiCss3,
   DiNpm,
+  DiPython
 } from "react-icons/di";
-import { SiExpo, SiJest, SiTailwindcss, SiReactrouter, SiGraphql, SiTypescript, SiFirebase } from "react-icons/si";
+import { SiExpo, SiJest, SiTailwindcss, SiReactrouter, SiGraphql, SiTypescript, SiFirebase, SiFlask, SiSqlite, SiRedux } from "react-icons/si";
 import { FaVuejs } from "react-icons/fa";
 
 
@@ -41,6 +42,9 @@ const Technologies = () => (
     <List>
       <ListItem>
         <DiReact title="React" size="6rem" />
+      </ListItem>
+      <ListItem>
+        <SiRedux title="Redux" size="5rem" />
       </ListItem>
       <ListItem>
         <FaVuejs title="Vue" size="5rem" />
@@ -78,7 +82,16 @@ const Technologies = () => (
     </List>
     <ListTitle>Back End</ListTitle>
     <List>
-    <ListItem>
+      <ListItem>
+        <DiPython title="Python" size="6rem" />
+      </ListItem>
+      <ListItem>
+        <SiFlask title="Flask" size="6rem" />
+      </ListItem>
+      <ListItem>
+        <SiSqlite title="SQLite" size="6rem" />
+      </ListItem>
+      <ListItem>
         <SiGraphql title="GraphQL" size="6rem" />
       </ListItem>
       <ListItem>
