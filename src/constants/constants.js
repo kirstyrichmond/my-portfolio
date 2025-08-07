@@ -4,7 +4,7 @@ export const projects = [
     description:
       "This is a clone of Autotrader - a UK marketplace for buying and selling vehicles. You can register/login, search vehicles within a set radius, view/create/save a vehicle listing, view all own listings and message seller.",
     image: "/images/autotrader-clone.png",
-    tags: ["React", "Redux", "Flask", "SQLite"],
+    tags: ["React", "Typescript", "Redux", "Tailwind", "Flask", "SQLite"],
     watch: "https://www.youtube.com/watch?v=frmYy23yCwU",
     visit: "https://autotrader-clone.vercel.app/",
     code: "https://github.com/kirstyrichmond/autotrader-clone",
@@ -15,7 +15,7 @@ export const projects = [
     description:
       "This is a clone of Netflix. You can register/login, watch movie trailers, create a profile, edit a profile and sign out.",
     image: "/images/netflix-clone.png",
-    tags: ["React", "Redux", "Stripe", "Axios", "Firebase"],
+    tags: ["React", "Javascript", "Redux", "Flask", "SQLite"],
     visit: "https://kirsty-richmond-netflix.vercel.app/",
     code: "https://github.com/kirstyrichmond/netflix-clone",
     id: 4,
