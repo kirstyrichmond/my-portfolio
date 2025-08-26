@@ -5,28 +5,14 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AchievementsStyles";
-
-const data = [
-  {
-    title: "NCA Awards",
-    text: "Merit",
-  },
-  {
-    title: "Piano",
-    text: "Grade 7",
-  },
-  {
-    title: "Guitar",
-    text: "Grade 5",
-  },
-];
+import { achievements } from "../../constants/constants";
 
 const Achievements = () => (
   <Section id="achievements">
     <SectionDivider />
     <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
+      {achievements.map((card, index) => (
         <Box key={index}>
           <BoxNum>{card.title}</BoxNum>
           <BoxText>{card.text}</BoxText>
