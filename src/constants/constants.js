@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Autotrader Clone",
     description:
-      "This is a clone of Autotrader - a UK marketplace for buying and selling vehicles. You can register/login, search vehicles within a set radius, view/create/save a vehicle listing, view all own listings and message seller.",
+      "Full-stack vehicle marketplace with location-based search, user authentication, and buyer-seller messaging. Features include radius-based vehicle search, CRUD operations for listings, saved vehicles, and secure seller-buyer communication system.",
     image: "/images/autotrader-clone.png",
     tags: ["React", "Typescript", "Redux", "Tailwind", "Flask", "SQLite"],
     watch: "https://www.youtube.com/watch?v=frmYy23yCwU",
@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "Netflix Clone",
     description:
-      "This is a clone of Netflix. You can register/login, watch movie trailers, create a profile, edit a profile and sign out.",
+      "Streaming platform clone with multiple profile support per account and watchlist functionality. Built custom Flask backend for authentication, integrated TMDb API for content, and implemented complex state management for seamless user experience.",
     image: "/images/netflix-clone.png",
     tags: ["React", "Javascript", "Redux", "Flask", "SQLite"],
     visit: "https://kirsty-richmond-netflix.vercel.app/",
@@ -21,19 +21,19 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Front End",
+    title: "NC-Games",
     description:
-      "Front-end architecture for NC Games. NC Games is a social games web app which contains interactive ratings and discussions between users.",
+      "Social games review platform with voting system, comments, and category filtering. Built RESTful API, implemented optimistic rendering for votes, and created responsive design for seamless mobile/desktop experience.",
     image: "/images/nc-games.png",
-    tags: ["React", "HTML", "CSS"],
+    tags: ["React", "HTML", "CSS", "Node", "Express", "PostgreSQL", "Jest"],
     visit: "https://nc-games-kirsty-richmond.netlify.app/",
     code: "https://github.com/kirstyrichmond/nc-games",
     id: 0,
   },
   {
-    title: "Full Stack",
+    title: "Readcycle",
     description:
-      "Readcycle is a mobile app that encourages sustainability by enabling individuals to give away and receive books. Users can upload their entire bookshelf using the in-built barcode scanner.",
+      "Book-sharing mobile application promoting sustainability through community book exchange. Implemented real-time chat, location services, book condition tracking, and push notifications for match alerts between readers.",
     image: "/images/readcycle.png",
     tags: ["Firebase", "React Native", "React Navigation", "Expo"],
     code: "https://github.com/kirstyrichmond/nc-readcycle",
@@ -43,21 +43,11 @@ export const projects = [
   {
     title: "To-Do Web App",
     description:
-      "A web app that allows a user to add, edit, drag and drop, cross out if completed, filter by tasks and delete tasks.",
+      "Task management application with drag-and-drop functionality and persistent local storage. Implemented custom drag-and-drop without libraries, built filtering system, and focused on clean, intuitive UI for productivity enhancement.",
     image: "/images/todo.png",
     tags: ["React", "Javascript", "HTML", "CSS"],
     visit: "https://kirsty-richmond-todo-app.netlify.app",
     code: "https://github.com/kirstyrichmond/To-do-Web-App",
     id: 3,
-  },
-  {
-    title: "Back End",
-    description:
-      "Back-end architecture for NC Games. Created a games-based API to serve game categories, reviews, users and comment information.",
-    image: "/images/be-nc-games.png",
-    tags: ["Node", "Express", "PostgreSQL", "Jest"],
-    visit: "http://be-nc-games-app.herokuapp.com/api",
-    code: "https://github.com/kirstyrichmond/be-nc-games",
-    id: 1,
   },
 ];

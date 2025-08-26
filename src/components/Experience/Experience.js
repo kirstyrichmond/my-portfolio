@@ -14,18 +14,18 @@ const Experience = () => (
                     <ExperienceDate>November 2022 - Present</ExperienceDate>
                     <ExperienceRole>Made By Sauce</ExperienceRole>
                     <ExperienceDescription>
-                    I assist in the build of many quote and buy software solutions for companies such as Compare the Market using Vue.js. I also assist in the build of bespoke in-house portals for companies such as Howden Insurance and Endsleigh Insurance using React.
+                    Build quote and buy solutions for Compare the Market and other major insurers using Vue.js and React. Develop responsive, accessible interfaces serving millions of users. Implement complex business logic, state management with Redux/Pinia, and debug production issues. Work in agile teams with backend developers to deliver seamless user experiences.
                     </ExperienceDescription>
                 </ExperienceInfo>
             </ExperienceContainer>
             <ExperienceContainer>
                 <ExperienceLogo src='/images/korelogic.jpeg' />
                 <ExperienceInfo>
-                    <ExperienceTitle>Junior Software Developer</ExperienceTitle>
+                    <ExperienceTitle>Software Developer</ExperienceTitle>
                     <ExperienceDate>April 2022 - October 2022</ExperienceDate>
                     <ExperienceRole>Korelogic</ExperienceRole>
                     <ExperienceDescription>
-                    As part of the team, I assisted on the new build for Korelogic’s Redbox product using React. I used JavaScript and Typescript to manipulate data on both client and server side and I used GraphQL to query the database. I also assisted the designer with user stories, fixed bugs and pair programmed when tackling a difficult challenge.
+                    Developed Redbox Platform (white label e-commerce solution) using React, TypeScript, and GraphQL. Built features for client and server-side data processing. Collaborated with designers on user stories, conducted code reviews, and debugged production issues. Practiced pair programming and TDD in an agile environment.
                     </ExperienceDescription>
                 </ExperienceInfo>
             </ExperienceContainer>
