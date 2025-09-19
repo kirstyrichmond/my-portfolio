@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Netflix Clone",
+    description:
+      "Streaming platform clone with multiple profile support per account and watchlist functionality. Built custom Flask backend for authentication, integrated TMDb API for content, and implemented complex state management for seamless user experience.",
+    image: "/images/netflix-clone.png",
+    tags: ["React", "Javascript", "Redux", "Flask", "SQLite"],
+    visit: "https://kirsty-richmond-netflix-clone.vercel.app/",
+    code: "https://github.com/kirstyrichmond/netflix-clone",
+    id: 4,
+  },
+  {
     title: "Autotrader Clone",
     description:
       "Full-stack vehicle marketplace with location-based search, user authentication, and buyer-seller messaging. Features include radius-based vehicle search, CRUD operations for listings, saved vehicles, and secure seller-buyer communication system.",
@@ -9,16 +19,6 @@ export const projects = [
     visit: "https://autotrader-clone.vercel.app/",
     code: "https://github.com/kirstyrichmond/autotrader-clone",
     id: 5,
-  },
-  {
-    title: "Netflix Clone",
-    description:
-      "Streaming platform clone with multiple profile support per account and watchlist functionality. Built custom Flask backend for authentication, integrated TMDb API for content, and implemented complex state management for seamless user experience.",
-    image: "/images/netflix-clone.png",
-    tags: ["React", "Javascript", "Redux", "Flask", "SQLite"],
-    visit: "https://kirsty-richmond-netflix-clone.vercel.app/",
-    code: "https://github.com/kirstyrichmond/netflix-clone",
-    id: 4,
   },
   {
     title: "NC-Games",
