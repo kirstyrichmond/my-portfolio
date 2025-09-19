@@ -16,7 +16,7 @@ export const projects = [
       "Streaming platform clone with multiple profile support per account and watchlist functionality. Built custom Flask backend for authentication, integrated TMDb API for content, and implemented complex state management for seamless user experience.",
     image: "/images/netflix-clone.png",
     tags: ["React", "Javascript", "Redux", "Flask", "SQLite"],
-    visit: "https://kirsty-richmond-netflix.vercel.app/",
+    visit: "https://kirsty-richmond-netflix-clone.vercel.app/",
     code: "https://github.com/kirstyrichmond/netflix-clone",
     id: 4,
   },
@@ -270,5 +270,29 @@ export const experience = [
     date: "April 2022 - October 2022",
     company: "Korelogic",
     description: "Developed Redbox Platform (white label e-commerce solution) using React, TypeScript, and GraphQL. Built features for client and server-side data processing. Collaborated with designers on user stories, conducted code reviews, and debugged production issues. Practiced pair programming and TDD in an agile environment."
+  }
+];
+
+export const socialLinks = [
+  {
+    id: 0,
+    name: "GitHub",
+    url: "https://github.com/kirstyrichmond",
+    icon: "AiFillGithub",
+    size: "3rem"
+  },
+  {
+    id: 1,
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/kirstyrichmond/",
+    icon: "AiFillLinkedin",
+    size: "3rem"
+  },
+  {
+    id: 2,
+    name: "Behance",
+    url: "https://www.behance.net/kirstyrichmond",
+    icon: "AiFillBehanceSquare",
+    size: "3rem"
   }
 ];
